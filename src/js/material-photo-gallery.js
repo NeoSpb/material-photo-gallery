@@ -12,7 +12,7 @@
     define(factory)
   } else if (typeof exports === 'object') {
     module.exports = factory(
-      require('imagesLoaded'),
+      require('imagesloaded'),
       require('./vendor/google-image-layout'),
       require('./create-controls')
     )
